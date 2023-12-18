@@ -1,0 +1,25 @@
+body {
+    background-color: #dbeafe;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button-container {
+    display: inline-block; 
+}
+
+
+.button-container button {
+    padding: 5px 50px;
+    margin-right: 15px;
+    background-color: #7bb0de;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

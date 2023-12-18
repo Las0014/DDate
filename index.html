@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Date</title>
+</head>
+<body>
+    <h1>Do you wanna go ice skating with me?</h1>
+
+    <img src="friends_gif.gif" alt="friends">
+
+    <div class="button-container">
+        <button id="yesBtn" onclick="myFunc()">Sì</button>
+        <button id="noBtn" onmouseover="noFunc()">No</button>
+    </div>
+    
+    <script>
+
+        function myFunc(){
+            window.location.href = "yes.html";
+        }
+
+        function noFunc() {
+        var button = document.getElementById('noBtn');
+        button.style.position = 'absolute';
+        button.style.left = Math.random() * window.innerWidth + 'px';
+        button.style.top = Math.random() * window.innerHeight + 'px';
+    }
+        
+    </script>
+
+</body>
+</html>
